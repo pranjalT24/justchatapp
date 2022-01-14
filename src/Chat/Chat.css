@@ -1,0 +1,65 @@
+.justchat_main{
+    box-shadow: 0 0 14px black;
+    border-radius: 0.3rem;
+}
+.header_chatbox{
+      display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_chatbox h2{
+    color:#6517ce ;
+        text-shadow: 0 0 3px black;
+}
+.header_chatbox .fas{
+        padding: 1rem;
+    font-size: 1.8rem;
+}
+.closeIconLink{
+    color: #1c378a;
+    transition: all 0.5s;
+}
+.closeIconLink:hover{
+    transform: rotate(-1800deg);
+    transition: all s;
+}
+.justchat-logo-text{
+    color:#262f49 ;
+}
+.message_container{
+    height: 80%;
+        box-shadow: inset 0 0 9px black;
+}
+
+.control_container{
+    height: 8%;
+    display: flex;
+    align-content: space-around;
+    justify-content: space-between;
+}
+.control_container input{
+    width: 65%;
+    border: none;
+    outline: none;
+        padding: 0rem 1rem;
+        border-radius: 0.3rem;
+}
+.control_container button{
+    width: 30%;
+    border: none;
+    outline: none;
+    border-radius: 2rem;
+    background: #6a11cb;
+}
+
+/* PLANE ICON ON BUTTON */
+.fab, .far {
+    font-weight: 400;
+    font-size: 2rem;
+    color: wheat;
+    text-shadow: 0 0 2px black;
+    transition: all 0.3s;
+}
+.control_container .message_send:hover .far {
+  transform: rotate(45deg);
+}

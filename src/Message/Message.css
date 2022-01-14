@@ -1,0 +1,19 @@
+.sended_message{
+    border-radius: 2rem;
+    font-weight: 700;
+    box-shadow: 0 0 4px black;
+    clear: both;
+    display: inline-block;
+    max-width: 80%;
+    word-break: break-all;
+}
+.right{
+    float: right;
+    background-color: #4caf50;
+    color: white;
+}
+.left{
+    float: left;
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
